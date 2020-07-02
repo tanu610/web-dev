@@ -1,1 +1,93 @@
-tftftg
+
+{
+    box-sizing: border-box;
+  }
+  
+  h1 {
+      font-size: 27px;
+      font-family: Georgia serif;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-bottom: 30px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  p {
+      padding: 20px 7px 0px 7px;
+      font-family: Georgia sans-serif;
+      font-size: 16px;
+      position: relative;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  .section { 
+      background-color: rgb(150, 150, 150);
+      border: 2px solid black;
+      margin-top: 30px; 
+      margin-right: 20px; 
+      padding: 3px;
+      text-align: justify;
+      position: relative;
+   }
+  
+  span {
+      font-size: 20px;
+      width: 150px;
+      border-right: 1px solid black;
+      border-top: 1px solid black;
+      border-left: 2px solid black;
+      border-bottom: 2px solid black;
+      font-weight: bold;
+      text-align: center;
+      float: right; top :0; right: 0; margin: 0;
+      position: absolute;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      padding: 2px;
+  }
+  #topic1 {
+      background-color: #FFB6C1;
+  }
+  #topic2 {
+      background-color: #FF0000;
+      color: rgb(250, 250, 250);
+  }
+  #topic3 {
+      background-color: #FFFF00;
+  }
+  
+  .row {
+      width: 100%;
+      margin-left: 10px;
+      margin-bottom: 15px;
+  }
+  
+  /* Desktop PC view */
+  
+  @media (min-width: 992px) {
+   
+    .pc {
+      width: 33.33%;
+      float: left;
+      }
+  }
+  
+  /* Tablet PC view */
+  @media (min-width: 768px) and (max-width: 991px) {
+   
+    .tablet {
+      width: 50%;
+      float: left;
+    }
+    .tab-pc {
+      width: 100%;
+      float: left;
+    }
+  }
+  /* Cell phone view */
+  @media (max-width: 767px)  {
+    
+    .phone {
+      float: left;
+      width: 100%;
+    }
+  }
